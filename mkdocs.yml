@@ -1,0 +1,54 @@
+site_name: World Ping Visualizer
+site_description: A TShock plugin that visualizes map pings
+site_author: Arthri
+site_url: https://arthri.github.io/WorldPingVisualizer
+repo_url: https://github.com/Arthri/WorldPingVisualizer
+copyright: Copyright © Arthri 2021
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  palette:
+    - scheme: default
+      primary: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: slate
+      primary: amber
+      accent: yellow
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.top
+    - navigation.instant
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.sections
+
+nav:
+  - Home:
+    - Index: 'index.md'
+    - Installation: 'installation.md'
+    - Usage: 'usage.md'
+    - Development: 'development.md'
+    - License: 'LICENSE.md'
+    - Documentation:
+      - Copyright: 'third-party-notices.md'
+  - Configuration:
+    - Index: 'Configuration/index.md'
+    - Particle Types: 'Configuration/particle-types.md'
+
+markdown_extensions:
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.keys

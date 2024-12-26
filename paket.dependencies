@@ -1,0 +1,10 @@
+source https://nuget.org/api/v2
+
+nuget Newtonsoft.Json 10.0.3
+nuget LrndefLib 2.0.0
+
+framework: net472
+
+group HTTPDependencies
+
+  http https://github.com/Pryaxis/TShock/releases/download/v4.5.5/TShock4.5.5_Terraria_1.4.2.3.zip TShock/TShock.zip

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+
+  {% if config.theme.palette %}
+    {% set firstPalette = config.theme.palette[0] %}
+    {% if firstPalette.primary %}
+      {% import "partials/palette.html" as map %}
+      {% set primary = map.primary(
+        firstPalette.primary | replace(" ", "-") | lower
+      ) %}
+      <meta name="theme-color" content="{{ primary }}" />
+    {% endif %}
+  {% endif %}
+
+{% endblock %}
