@@ -5,9 +5,7 @@ World Ping Visualizer is a TShock plugin that visualizes map pings
 > Si hablas Español visita esto para leer en [Español](README_ES.md)
 
 > [!NOTE] 
-> Original repository https://github.com/Arthri/WorldPingVisualizer/tree/master
-/
-> This has been updated by me as that one didn't work
+> Original [repository](https://github.com/Arthri/WorldPingVisualizer/tree/master) This has been updated by me as that one didn't work
 
 ## Features
 - Shows CombatText at ping locations
