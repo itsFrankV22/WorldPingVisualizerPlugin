@@ -19,8 +19,7 @@ World Ping Visualizer is a TShock plugin that visualizes map pings
 
 ## Installation
 1. Grab the [latest](https://github.com/itsFrankV22/WorldPingVisualizerPlugin/releases) release
-2. Put the zip in `ServerPlugins` folder
-3. Unzip the zip
+2. Put the `.dll` in `ServerPlugins` folder
 
 ## Usage
 1. Open full map
